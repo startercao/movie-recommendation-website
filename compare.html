@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="css/all.css">
+	<link rel="stylesheet" href="css/bulma.min.css">
+    <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/compare.css">
+</head>
+<body>
+
+<section class="hero is-primary is-bold s" style="background-image: url('images/c.jpg');background-attachment: fixed">
+    <div class="hero-body">
+        <div class="container">
+            <h1 class="title">
+                Movie Compare
+            </h1>
+        </div>
+    </div>
+</section>
+
+<div class="container" id="container">
+    <div class="columns">
+        <div class="column">
+            <div id="left-autocomplete"></div>
+            <div id="left-summary" class="bd-structure"></div>
+        </div>
+
+        <div class="column">
+            <div id="right-autocomplete"></div>
+            <div id="right-summary" class="bd-structure"></div>
+        </div>
+    </div>
+    <div class="column is-half notification is-primary tutorial">
+        <h1 class="title">Search For a Movie on Both Sides</h1>
+        <p class="subtitle">We will list the details for you!</p>
+    </div>
+</div>
+
+<script src="js/utils.js"></script>
+<script src="js/autoContain.js"></script>
+<script src="js/index.js"></script>
+<script src="js/axios.min.js"></script>
+</body>
+</html>
