@@ -1,6 +1,7 @@
 # Cinema Paradiso: Your personal movie recommendation system
 Final Report 
 
+
 (Summer, 2020 Submitted in fulfillment of the requirements for CS411 Final Project)\
 You can view our website on: https://cinemaparadiso.web.illinois.edu/ Username: aaa Password: 123 (login as a user) 
 
